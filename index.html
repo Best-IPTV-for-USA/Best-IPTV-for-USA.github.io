@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Best IPTV Resources</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>Top IPTV Resources & Streaming Information Directory</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 
@@ -18,128 +20,170 @@ font-family:'Poppins',sans-serif;
 
 body{
 
-background:linear-gradient(135deg,#071029,#081b44,#122d66);
-padding:60px 20px;
+background:linear-gradient(135deg,#081120,#112240,#0e7490);
+min-height:100vh;
 color:#fff;
 
 }
 
 .container{
 
-max-width:1200px;
+width:90%;
+max-width:1350px;
 margin:auto;
+padding:60px 0;
 
 }
 
-.title{
+header{
 
 text-align:center;
-font-size:45px;
-font-weight:700;
-margin-bottom:15px;
-
-}
-
-.subtitle{
-
-text-align:center;
-color:#d7d7d7;
 margin-bottom:60px;
-font-size:18px;
+
+}
+
+header h1{
+
+font-size:52px;
+font-weight:800;
+margin-bottom:18px;
+
+background:linear-gradient(90deg,#00e5ff,#7df9ff,#ffffff);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+}
+
+header p{
+
+font-size:19px;
+max-width:900px;
+margin:auto;
+line-height:1.8;
+color:#d7e4ef;
 
 }
 
 .grid{
 
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
+
+grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+
+gap:35px;
 
 }
 
 .card{
 
 background:rgba(255,255,255,.08);
-backdrop-filter:blur(15px);
-border-radius:25px;
-padding:30px;
-transition:.4s;
-position:relative;
-overflow:hidden;
+
 border:1px solid rgba(255,255,255,.15);
+
+backdrop-filter:blur(18px);
+
+border-radius:22px;
+
+padding:35px;
+
+transition:.4s;
+
+position:relative;
+
+overflow:hidden;
 
 }
 
-.card:before{
+.card::before{
 
 content:'';
+
 position:absolute;
-width:180px;
-height:180px;
-background:rgba(255,255,255,.08);
+
+width:150px;
+
+height:150px;
+
+background:rgba(0,229,255,.15);
+
 border-radius:50%;
-top:-80px;
-right:-80px;
+
+top:-50px;
+
+right:-50px;
 
 }
 
 .card:hover{
 
-transform:translateY(-10px) scale(1.03);
-box-shadow:0 20px 50px rgba(0,0,0,.35);
+transform:translateY(-12px);
+
+box-shadow:0 25px 60px rgba(0,0,0,.35);
 
 }
 
 .icon{
 
-width:75px;
-height:75px;
+width:70px;
+
+height:70px;
+
 border-radius:18px;
+
+background:linear-gradient(135deg,#00c6ff,#0072ff);
+
 display:flex;
-align-items:center;
+
 justify-content:center;
-font-size:35px;
-margin-bottom:20px;
+
+align-items:center;
+
+font-size:30px;
+
+margin-bottom:25px;
 
 }
 
-.c1{background:linear-gradient(45deg,#ff512f,#dd2476);}
-.c2{background:linear-gradient(45deg,#00c6ff,#0072ff);}
-.c3{background:linear-gradient(45deg,#00b09b,#96c93d);}
-.c4{background:linear-gradient(45deg,#f7971e,#ffd200);}
-
 .card h2{
 
-font-size:24px;
-margin-bottom:15px;
+font-size:26px;
+
+margin-bottom:18px;
 
 }
 
 .card p{
 
-color:#e5e5e5;
-line-height:1.8;
-margin-bottom:25px;
+color:#dfe8f0;
+
+line-height:1.9;
+
 font-size:15px;
+
+margin-bottom:25px;
 
 }
 
 .btn{
 
 display:inline-block;
-padding:13px 28px;
+
+padding:14px 30px;
+
 border-radius:50px;
-text-decoration:none;
-font-weight:600;
+
+background:linear-gradient(90deg,#00c6ff,#0072ff);
+
 color:#fff;
-transition:.3s;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.35s;
 
 }
-
-.b1{background:#ff4b6e;}
-.b2{background:#0094ff;}
-.b3{background:#00c26f;}
-.b4{background:#f7a500;}
 
 .btn:hover{
 
@@ -147,108 +191,251 @@ transform:scale(1.08);
 
 }
 
-.footer{
+.about{
+
+margin-top:90px;
+
+background:rgba(255,255,255,.08);
+
+padding:50px;
+
+border-radius:25px;
+
+border:1px solid rgba(255,255,255,.15);
+
+line-height:2;
+
+font-size:17px;
+
+color:#dce5ef;
+
+}
+
+.about h2{
+
+font-size:36px;
+
+margin-bottom:25px;
+
+}
+
+.author{
 
 margin-top:70px;
+
 text-align:center;
-color:#ddd;
+
+background:linear-gradient(135deg,#00c6ff,#0072ff);
+
+padding:40px;
+
+border-radius:25px;
+
+}
+
+.author h3{
+
+font-size:32px;
+
+margin-bottom:10px;
+
+}
+
+.author p{
+
+font-size:18px;
+
+}
+
+.author a{
+
+color:#fff;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+footer{
+
+margin:50px 0 20px;
+
+text-align:center;
+
+color:#b7c7d9;
 
 }
 
 </style>
 
 </head>
+
 <body>
 
 <div class="container">
 
-<h1 class="title">🔥 Best IPTV Resources</h1>
+<header>
 
-<p class="subtitle">
-Explore Premium IPTV Services, Guides & Reviews in One Place
+<h1>Top IPTV Resources & Streaming Information</h1>
+
+<p>
+
+Explore a collection of useful IPTV resources, setup guides, streaming information websites, community projects, and educational references. This directory is designed to help visitors discover different IPTV-related platforms for learning, comparing services, reading guides, and staying informed.
+
 </p>
+
+</header>
 
 <div class="grid">
 
 <div class="card">
 
-<div class="icon c1">📺</div>
+<div class="icon">📺</div>
 
-<h2>TereaTV IPTV</h2>
+<h2>TereaTV</h2>
 
 <p>
-Access premium IPTV subscriptions, exclusive offers, activation, billing, and streaming services from TereaTV.
+
+TereaTV provides information about IPTV subscriptions, streaming features, entertainment packages, and device compatibility. Visitors can learn more about available services, supported platforms, and various IPTV viewing options designed for different types of users.
+
 </p>
 
-<a class="btn b1"
-href="https://tereatv.com/billing/aff.php?aff=106"
-target="_blank">
+<a class="btn" href="https://tereatv.com/billing/aff.php?aff=106" target="_blank">
+
 Visit Website →
+
 </a>
 
 </div>
 
 <div class="card">
 
-<div class="icon c2">📘</div>
+<div class="icon">📚</div>
 
-<h2>What is IPTV?</h2>
+<h2>What Is IPTV</h2>
 
 <p>
-Learn everything about IPTV, how it works, benefits, legal information, and beginner-friendly streaming guides.
+
+This educational website explains IPTV technology, streaming methods, legal considerations, setup tutorials, frequently asked questions, and useful information for beginners who want to understand internet television before choosing a service.
+
 </p>
 
-<a class="btn b2"
-href="https://www.what-is-iptv.com/"
-target="_blank">
-Read Guide →
+<a class="btn" href="https://www.what-is-iptv.com/" target="_blank">
+
+Learn More →
+
 </a>
 
 </div>
 
 <div class="card">
 
-<div class="icon c3">🏆</div>
+<div class="icon">⭐</div>
 
 <h2>6 Best IPTV 2026</h2>
 
 <p>
-Discover six of the best IPTV providers with feature comparisons, pricing, supported devices, and streaming quality.
+
+Discover a curated collection of IPTV-related information featuring several streaming platforms, comparisons, highlights, and recommendations. The resource focuses on helping readers explore different IPTV options available during 2026.
+
 </p>
 
-<a class="btn b3"
-href="https://sites.google.com/view/6-best-iptv-2026/"
-target="_blank">
-Explore →
+<a class="btn" href="https://sites.google.com/view/6-best-iptv-2026/" target="_blank">
+
+Open Guide →
+
 </a>
 
 </div>
 
 <div class="card">
 
-<div class="icon c4">⭐</div>
+<div class="icon">🏆</div>
 
 <h2>17 Best IPTV 2026</h2>
 
 <p>
-Compare seventeen leading IPTV providers, including channels, features, compatibility, pricing, and user recommendations.
+
+This directory presents a broader collection of IPTV resources with detailed comparisons, features, viewing options, compatibility information, and useful references for users researching IPTV providers and streaming platforms.
+
 </p>
 
-<a class="btn b4"
-href="https://sites.google.com/view/17-best-iptv-2026/"
-target="_blank">
-View List →
+<a class="btn" href="https://sites.google.com/view/17-best-iptv-2026/" target="_blank">
+
+Explore →
+
+</a>
+
+</div>
+
+<div class="card">
+
+<div class="icon">💻</div>
+
+<h2>GitHub IPTV Project</h2>
+
+<p>
+
+A public GitHub repository that shares IPTV-related resources, project information, and open development content. It is suitable for developers, researchers, and technology enthusiasts interested in IPTV community projects.
+
+</p>
+
+<a class="btn" href="https://github.com/Best-IPTV-for-USA" target="_blank">
+
+View Repository →
+
 </a>
 
 </div>
 
 </div>
 
-<div class="footer">
+<div class="about">
 
-© 2026 IPTV Resource Directory • All Rights Reserved
+<h2>About This Directory</h2>
+
+<p>
+
+The purpose of this resource page is to introduce visitors to a selection of IPTV-related websites that provide educational articles, streaming guides, comparison resources, technology information, and community content. Every platform listed here offers different perspectives and resources for users interested in internet television.
+
+</p>
+
+<br>
+
+<p>
+
+Whether you're learning what IPTV is, comparing different platforms, reading streaming tutorials, or exploring open-source IPTV projects, these resources can help you better understand the IPTV ecosystem. Always review each website's own policies, pricing, and legal information before using any service.
+
+</p>
 
 </div>
+
+<div class="author">
+
+<h3>Author: Kevin Webix</h3>
+
+<p>SEO Specialist</p>
+
+<p>
+
+📧 Email:
+
+<a href="mailto:kevinwebix08@gmail.com">
+
+kevinwebix08@gmail.com
+
+</a>
+
+</p>
+
+</div>
+
+<footer>
+
+© 2026 IPTV Resource Directory • Designed with HTML5 & CSS3
+
+</footer>
 
 </div>
 
